@@ -1,0 +1,126 @@
+.body {
+    background-color: rgb(231, 209, 177);
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    height: 40px;
+    background-color: rgba(82, 11, 11, 0.942);
+}
+.links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+.links li {
+    padding: 10px 10px 6px 50px;
+}
+.links li a {
+    text-decoration: none;
+    color: white;
+    font-style: bold;
+}
+.main_icon {
+    padding-top: 10px;
+    padding-left: 20px;
+    height: 100px;
+}
+.search_icon{
+    display: flex;
+    align-items: center;
+}
+.search{
+    padding-left: 30px;
+    display: flex;
+    width: 220px;
+    height: 35px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+.search_input{
+    width: 100%;
+    font-size: 1rem;   
+    border: none;
+}
+.search_icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #f5f5f5;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+.settings {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-left: 20px;
+    height: 100px;
+}
+.welcome{
+    background-image: url(table.webp);
+    height:350px;
+    width: 100%;
+    max-width: 100%;
+    display: flex; 
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
+.text {
+    font-family: cursive;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgba(82, 11, 11, 0.942);
+    position: absolute;
+    left: 20px;
+    top: 0%;
+    padding: 0 30px;
+}
+.main_heading {
+    font-weight: bolder;
+    font-size: 60px;
+}
+.next_line {
+    font-weight: 600;
+    font-size: 50px;
+    padding-left: 270px;
+}
+.shops {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+.box {
+    height: 300px;
+    width: 300px;;
+}
+.box1 {
+    margin-top: 30px;
+    margin-left: 50px;
+    background-image: url(cof.webp);
+    background-size: cover;
+}
+.box2 {
+    margin-top: 100px;
+    margin-right: 10px;
+    background-image: url(cafe.png);
+    background-size: cover;
+}
+.box3 {
+    margin-top: 70px;
+    margin-left: 10px;
+    background-image: url(blur.jpg);
+    background-size: cover;
+}
